@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ICTEA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ICTEA</string>
+    <string name="nav_header_subtitle">Instituto de Capacitación para el Trabajo del Estado de Aguascalientes</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="texto">Instituto de Capacitación para el Trabajo del Estado de Aguascalientes (ICTEA)</string>
+    <string name="pregunta1">¿Quiénes Somos?</string>
+    <string name="periodos_de_inscripcion">Periodos de Inscripcion</string>
+    <string name="respuesta1">El Instituto de Capacitación para el Trabajo del Estado de Aguascalientes es un organismo público descentralizado del Gobierno Estatal.
+        Creado en convenio con la Secretaría de Educación Pública, inició sus actividades en septiembre de 1994, para atender a todos los interesados en un curso de capacitación y a todas las empresas que necesiten capacitación en cualquier área y nivel.</string>
+    <string name="servicios">Servicios</string>
+    <string name="planteles">Planteles</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="Avanzados">Avanzados</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="ImageIctea">TODO</string>
+    <string name="seleccionarc">Cursos</string>
+    <string name="seleccionarp">Planteles</string>
+    <string name="title_activity_formulario">formulario</string>
+    <string name="title_activity_periodos_ins">PeriodosIns</string>
+    <string name="title_activity_register_layout">register_layout</string>
+    <string name="title_activity_plantel">plantel</string>
+    <string name="title_activity_servicios">servicios</string>
+    <string name="title_activity_ubicacion">ubicacion</string>
+    <string name="title_activity_acerca_de">AcercaDe</string>
+    <string name="title_activity_ubicacion_icte">Ubicación</string>
+    <string name="title_activity_ubicacion1">Map</string>
+    <string name="title_activity_ubicacion2">Map</string>
+    <string-array name="Curso">
+        <item>Alemán</item>
+        <item>Alimentos y bebidas (Gastronomía)</item>
+        <item>Astencia ejecutiva</item>
+        <item>Belleza</item>
+        <item>Carpintería</item>
+        <item>Confección industrial de ropa</item>
+        <item>Cosmetología</item>
+        <item>Electrónica</item>
+        <item>Francés</item>
+        <item>Informática (Computación)</item>
+        <item>Inglés</item>
+        <item>Instalación electrica residencial (Electricidad)</item>
+        <item>Japonés</item>
+        <item>Mantenimiento de computadoras</item>
+        <item>Máquinas Herramienta</item>
+        <item>Mecánica Automotriz</item>
+        <item>Operador de montacargas</item>
+        <item>Refrigeración</item>
+        <item>Soldadura y Pailería</item>
+    </string-array>
+    <string-array name="Plantel">
+        <item>Pilar Blanco (Aguascalientes)</item>
+        <item>Tres centurias (Aguascalientes) </item>
+        <item>Guadalupe Peralta (Aguascalientes)</item>
+        <item>Mirador de las culturas (Aguascalientes)</item>
+        <item>Jesús María</item>
+        <item>Rincón de Romos</item>
+        <item>San Francisco de los Romos</item>
+        <item>Calvillo</item>
+        <item>Cosío</item>
+        <item>El Llano</item>
+        <item>Villa Juarez</item>
+        <item>San José de Gracia (Extensión)</item>
+    </string-array>
+</resources>

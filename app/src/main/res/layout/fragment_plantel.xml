@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="300dp"
+                android:layout_height="135dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.36"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_menu_logo" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Planteles"
+                android:textColor="#0095C8"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.36"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <android.support.v7.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="171dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="@string/planteles"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="Especialidad"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    app:fontFamily="sans-serif"
+                    app:layout_column="1"
+                    app:layout_row="0" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pilar Blanco (Aguascalientes) "
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="1" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Andador Ruiseñor, Fracc. Pilar Blanco"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="2" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20280"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="3" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aguascalientes, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="4" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01 (449) 978 81 55"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="5" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Informática (Computación)"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="1" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Astencia ejecutiva"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="2" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mantenimiento de computadoras"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="3" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="4" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Japonés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="5" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Francés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="6" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electrónica"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="7" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confección industrial de ropa"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="8" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="9" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gastronomía"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="10" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Máquinas Herramienta"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="11" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cosmetología"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="12" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mecánica Automotriz"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="13" />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="14" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tres centurias"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="15" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Av. Manuel Gómez Morín # 102-10"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="16" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Col. Ferronales."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="17" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20180."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="18" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aguascalientes, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="19" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01 (449) 975 12 85"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="20" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Informática (Computación)"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="15" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="16" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Francés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="17" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Japonés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="18" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alemán"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="19" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gastronomía"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="20" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Astencia ejecutiva"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="21" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="22" />
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guadalupe Peralta"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="23" />
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adelina Hernandez Reynoso #301"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="24" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fracc. Prof. J. Guadalupe Peralta G."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="25" />
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20196"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="26" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Aguascalientes, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="27" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="01 (449) 140 09 48"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="28" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Informática (Computación)"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="23" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="24" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="25" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="29" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mirador de las culturas"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="30" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cultura Totonaca s/n"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="31" />
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fracc. Mirador de las culturas II"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="32" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20299"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="33" />
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Aguascalientes, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="34" />
+
+                <TextView
+                    android:id="@+id/textView86"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="01 (449) 146 60 97"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="35" />
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Operador de montacargas"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="30" />
+
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Soldadura y Pailería"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="31" />
+
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Electricidad"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="32" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="33" />
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="36" />
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jesús María"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="37" />
+
+                <TextView
+                    android:id="@+id/textView93"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Av. López Mateos esq. Valle de México"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="38" />
+
+                <TextView
+                    android:id="@+id/textView94"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fracc. Lomas del Valle"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="39" />
+
+                <TextView
+                    android:id="@+id/textView95"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20900"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="40" />
+
+                <TextView
+                    android:id="@+id/textView96"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jesús María, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="41" />
+
+                <TextView
+                    android:id="@+id/textView97"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="01 (449) 965 09 01"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="42" />
+
+                <TextView
+                    android:id="@+id/textView98"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Informática (Computación)"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="37" />
+
+                <TextView
+                    android:id="@+id/textView99"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mantenimiento de computadoras"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="38" />
+
+                <TextView
+                    android:id="@+id/textView100"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="39" />
+
+                <TextView
+                    android:id="@+id/textView101"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Carpintería"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="40" />
+
+                <TextView
+                    android:id="@+id/textView102"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Confección industrial de ropa"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="41" />
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="42" />
+
+                <TextView
+                    android:id="@+id/textView104"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gastronomía"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="43" />
+
+                <TextView
+                    android:id="@+id/textView105"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mecánica automotriz"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="44" />
+
+                <TextView
+                    android:id="@+id/textView106"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Astencia ejecutiva"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="45" />
+
+                <TextView
+                    android:id="@+id/textView107"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Alemán"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="46" />
+
+                <TextView
+                    android:id="@+id/textView108"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Japones"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="47" />
+
+                <TextView
+                    android:id="@+id/textView109"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="48" />
+
+                <TextView
+                    android:id="@+id/textView110"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rincón de Romos"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="49" />
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Miguel Hidalgo #325"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="50" />
+
+                <TextView
+                    android:id="@+id/textView112"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Zona Centro"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="51" />
+
+                <TextView
+                    android:id="@+id/textView113"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20417"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="52" />
+
+                <TextView
+                    android:id="@+id/textView114"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rincón de Romos, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="53" />
+
+                <TextView
+                    android:id="@+id/textView115"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="01 (465) 851 40 66"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="54" />
+
+                <TextView
+                    android:id="@+id/textView116"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Informática (Computación)"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="49" />
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="50" />
+
+                <TextView
+                    android:id="@+id/textView118"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="51" />
+
+                <TextView
+                    android:id="@+id/textView119"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="55" />
+
+                <TextView
+                    android:id="@+id/textView120"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="San Francisco de los Romos"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="56" />
+
+                <TextView
+                    android:id="@+id/textView121"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Calle Naranjos S/N"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="57" />
+
+                <TextView
+                    android:id="@+id/textView122"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cerrada San Francisco de los Romo"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="58" />
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20303"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="59" />
+
+                <TextView
+                    android:id="@+id/textView124"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="San Francisco de los Romo, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="60" />
+
+                <TextView
+                    android:id="@+id/textView125"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="01 (465) 967 22 91"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="61" />
+
+                <TextView
+                    android:id="@+id/textView126"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Informática (Computación)"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="56" />
+
+                <TextView
+                    android:id="@+id/textView127"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="57" />
+
+                <TextView
+                    android:id="@+id/textView128"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="58" />
+
+                <TextView
+                    android:id="@+id/textView129"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Refrigeración"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="59" />
+
+                <TextView
+                    android:id="@+id/textView130"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Confección de ropa"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="60" />
+
+                <TextView
+                    android:id="@+id/textView131"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="62" />
+
+                <TextView
+                    android:id="@+id/textView132"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Calvillo"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="63" />
+
+                <TextView
+                    android:id="@+id/textView133"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Privada articulo 115 constitucional s/n"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="64" />
+
+                <TextView
+                    android:id="@+id/textView134"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20800"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="65" />
+
+                <TextView
+                    android:id="@+id/textView135"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Calvillo, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="66" />
+
+                <TextView
+                    android:id="@+id/textView136"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="01 (495) 956 14 35"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="67" />
+
+                <TextView
+                    android:id="@+id/textView137"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Informática (Computación)"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="63" />
+
+                <TextView
+                    android:id="@+id/textView138"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="64" />
+
+                <TextView
+                    android:id="@+id/textView139"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="65" />
+
+                <TextView
+                    android:id="@+id/textView140"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cosmetología "
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="66" />
+
+                <TextView
+                    android:id="@+id/textView141"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="68" />
+
+                <TextView
+                    android:id="@+id/textView142"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cosío"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="69" />
+
+                <TextView
+                    android:id="@+id/textView143"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Calle Aurora no. 101"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="70" />
+
+                <TextView
+                    android:id="@+id/textView144"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Villas del proterito"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="71" />
+
+                <TextView
+                    android:id="@+id/textView145"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20460"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="72" />
+
+                <TextView
+                    android:id="@+id/textView146"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cosio, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="73" />
+
+                <TextView
+                    android:id="@+id/textView147"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="01 (458) 110 07 03"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="74" />
+
+                <TextView
+                    android:id="@+id/textView148"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Informática (Computación)"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="69" />
+
+                <TextView
+                    android:id="@+id/textView149"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="70" />
+
+                <TextView
+                    android:id="@+id/textView150"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="71" />
+
+                <TextView
+                    android:id="@+id/textView151"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gastronomía"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="72" />
+
+                <TextView
+                    android:id="@+id/textView152"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Confección industrial de ropa"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="73" />
+
+                <TextView
+                    android:id="@+id/textView153"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="75" />
+
+                <TextView
+                    android:id="@+id/textView154"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="El Llano"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="76" />
+
+                <TextView
+                    android:id="@+id/textView155"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Calle Emiliano Zapata no. 103"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="77" />
+
+                <TextView
+                    android:id="@+id/textView156"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Barrio del centro"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="78" />
+
+                <TextView
+                    android:id="@+id/textView157"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="C.P. 20330"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="79" />
+
+                <TextView
+                    android:id="@+id/textView158"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Palo alto, El Llano, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="80" />
+
+                <TextView
+                    android:id="@+id/textView159"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="01 (496) 113 35 84"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="81" />
+
+                <TextView
+                    android:id="@+id/textView160"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gastronomía"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="76" />
+
+                <TextView
+                    android:id="@+id/textView161"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="77" />
+
+                <TextView
+                    android:id="@+id/textView162"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="78" />
+
+                <TextView
+                    android:id="@+id/textView163"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Astencia ejecutiva"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="79" />
+
+                <TextView
+                    android:id="@+id/textView164"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="82" />
+
+                <TextView
+                    android:id="@+id/textView165"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Villa Juarez"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="83" />
+
+                <TextView
+                    android:id="@+id/textView166"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Instalaciones de cbta 40"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="84" />
+
+                <TextView
+                    android:id="@+id/textView167"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Villa Juárez, Ags."
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="85" />
+
+                <TextView
+                    android:id="@+id/textView168"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="(045) 496 110 57 35"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="86" />
+
+                <TextView
+                    android:id="@+id/textView171"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Informática (Computación)"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="83" />
+
+                <TextView
+                    android:id="@+id/textView172"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inglés"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="84" />
+
+                <TextView
+                    android:id="@+id/textView173"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="85" />
+
+                <TextView
+                    android:id="@+id/textView174"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Japones"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="86" />
+
+                <TextView
+                    android:id="@+id/textView175"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    app:layout_column="0"
+                    app:layout_row="87" />
+
+                <TextView
+                    android:id="@+id/textView176"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="San José de Gracia (Extensión)"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="88" />
+
+                <TextView
+                    android:id="@+id/textView177"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Madero #232"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="89" />
+
+                <TextView
+                    android:id="@+id/textView178"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="A una cuadra antes del palacio de Gobierno"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="90" />
+
+                <TextView
+                    android:id="@+id/textView179"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="01 (465) 967 22 91"
+                    android:textSize="10sp"
+                    app:layout_column="0"
+                    app:layout_row="91" />
+
+                <TextView
+                    android:id="@+id/textView180"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Belleza"
+                    android:textSize="8sp"
+                    app:layout_column="1"
+                    app:layout_row="88" />
+
+
+            </android.support.v7.widget.GridLayout>
+        </TableLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

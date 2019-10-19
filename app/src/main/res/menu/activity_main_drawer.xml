@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_ICTEA"
+        android:icon="@drawable/ic_nav_ictea"
+        android:title="@string/app_name" />
+        <item
+            android:id="@+id/nav_periodo_ins"
+            android:icon="@drawable/ic_menu_periodosins"
+            android:title="@string/periodos_de_inscripcion" />
+        <item
+            android:id="@+id/nav_servicios"
+            android:icon="@drawable/ic_menu_servicios"
+            android:title="@string/servicios" />
+        <item
+            android:id="@+id/nav_plantel"
+            android:icon="@drawable/ic_menu_planteles"
+            android:title="@string/planteles" />
+        <item
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/ic_menu_ubicacion"
+            android:title="@string/ubicacion" />
+    </group>
+
+    <item android:title="@string/Avanzados">
+        <menu>
+
+            <item
+                android:id="@+id/nav_acerca_de"
+                android:icon="@drawable/ic_menu_acercade"
+                android:title="@string/acerca_de" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_home_info"
+                android:title="Informes"/>
+        </menu>
+    </item>
+
+</menu>
