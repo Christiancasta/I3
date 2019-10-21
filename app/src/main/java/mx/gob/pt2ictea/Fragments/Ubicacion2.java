@@ -34,6 +34,9 @@ public class Ubicacion2 extends Fragment implements OnMapReadyCallback {
         SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
+        FloatingActionButton fab = (FloatingActionButton) getActivity().findViewById(R.id.fab);
+        fab.hide();
+
         return view;
     }
 
@@ -41,7 +44,10 @@ public class Ubicacion2 extends Fragment implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Se inserta un marcador que identifica la ubicación del Instituto
+        mMap.getUiSettings().setZoomControlsEnabled(true);
+        mMap.getUiSettings().setCompassEnabled(true);
+
+        // Marker to identify each location
         LatLng ictea = new LatLng(21.889535, -102.281596);
         mMap.addMarker(new MarkerOptions().position(ictea).title("ICTEA Gómez Morín"));
 
@@ -81,6 +87,10 @@ public class Ubicacion2 extends Fragment implements OnMapReadyCallback {
 
     @Override
     public void onDestroyView() {
+
+        FloatingActionButton fab = (FloatingActionButton) getActivity().findViewById(R.id.fab);
+        fab.show();
+
         super.onDestroyView();
     }
 }

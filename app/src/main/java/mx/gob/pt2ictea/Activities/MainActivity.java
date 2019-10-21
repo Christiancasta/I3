@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Opcion de ajustes
+        // Toolbar option
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        //Boton flotante con la opcion de compartir RF03
+        // FloatingButton with the share option (Functional Requirement 03)
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        //Opcion para abrir y/o cerrar layout del menu
+        // Option to open and close the Layout Menu
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    //Metodo para seleccionar los modulos del menu principal
+    // Main Menu Method
     public boolean onNavigationItemSelected(MenuItem item) {
 
         int id = item.getItemId();

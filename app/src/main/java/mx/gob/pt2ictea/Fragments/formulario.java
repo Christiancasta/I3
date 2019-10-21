@@ -15,9 +15,10 @@ import mx.gob.pt2ictea.R;
 
 public class formulario extends AppCompatActivity {
 
-    EditText nombre, telefono, curso, plantel, comentarios;
-    Spinner curso1, plantel1;
-    String str_nombre, str_telefono, str_curso, str_plantel, str_comentarios, str_curso1, str_plantel1;
+    EditText nombre, telefono,comentarios;
+    Spinner curso, plantel;
+    String str_nombre, str_telefono, str_comentarios, str_curso, str_plantel;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,11 +26,9 @@ public class formulario extends AppCompatActivity {
 
         nombre = (EditText) findViewById(R.id.lbl_nombre);
         telefono = (EditText) findViewById(R.id.lbl_telefono);
-        /*curso = (EditText) findViewById(R.id.lbl_curso);
-        plantel = (EditText) findViewById(R.id.lbl_plantel);*/
         comentarios = (EditText) findViewById(R.id.lbl_comentarios);
-        curso1 = (Spinner) findViewById(R.id.spinnerCurso);
-        plantel1 = (Spinner) findViewById(R.id.spinnerPlantel);
+        curso = (Spinner) findViewById(R.id.spinnerCurso);
+        plantel = (Spinner) findViewById(R.id.spinnerPlantel);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -39,8 +38,6 @@ public class formulario extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(formulario.this, MainActivity.class));
-                //Snackbar.make(view, "Compartir", Snackbar.LENGTH_LONG)
-                //.setAction("Action", null).show();
             }
         });
     }
@@ -49,13 +46,11 @@ public class formulario extends AppCompatActivity {
         str_nombre = nombre.getText().toString();
         str_telefono = telefono.getText().toString();
         str_comentarios = comentarios.getText().toString();
-        str_curso1 = curso1.getSelectedItem().toString();
-        str_plantel1 = plantel1.getSelectedItem().toString();/*
-        str_curso = curso.getText().toString();
-        str_plantel = plantel.getText().toString();*/
+        str_curso = curso.getSelectedItem().toString();
+        str_plantel = plantel.getSelectedItem().toString();
         String method = "formulario";
         BackgroundTask backgroundTask = new BackgroundTask(this);
-        backgroundTask.execute(method, str_nombre, str_telefono, str_curso1, str_plantel1, str_comentarios);
+        backgroundTask.execute(method, str_nombre, str_telefono, str_curso, str_plantel, str_comentarios);
         finish();
 
     }

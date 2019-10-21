@@ -29,6 +29,19 @@
     <string name="title_activity_ubicacion_icte">Ubicación</string>
     <string name="title_activity_ubicacion1">Map</string>
     <string name="title_activity_ubicacion2">Map</string>
+    <string name="title_activity_informes">Informes</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="plantel">Plantel</string>
+    <string name="cursos_regulares">Son cursos de capacitación que imparte el Instituto al público en general, a través de sus planteles, mediante programas autorizados por la Dirección General de Centros Formación para el Trabajo en las distintas especialidades que demanda el sector social.</string>
+    <string name="cursos_extension">Estos cursos están dirigidos a la comunidad del plantel, egresados del Instituto de Capacitación para el Trabajo del Estado de Aguascalientes y a población limitada, en cuanto a número de interesados en recibir una capacitación que les permita incrementar o actualizar conocimientos, habilidades y aptitudes para su desarrollo laboral; además, dichos cursos son formulados de uno o más cursos regulares.</string>
+
+    <string name="servicios_cci">Los cursos C.C.I. (Capacitación Capacitación Intensiva), son cursos de capacitación que ofrece el Instituto de Capacitación para el Trabajo del Estado de Aguascalientes a empresas, organismos e instituciones mediante un convenio o contrato, para capacitar a personas en áreas específicas de interés, en el menor tiempo posible, teniendo como objetivos principales: Apoyar al sector productivo de bienes y servicios para facilitar el cumplimiento de las disposiciones legales para capacitar a los trabajadores. Coadyuvar a incrementar la productividad, a través de la calidad de la mano de obra con que cuenta el sector productivo de bienes y servicios de la región y del estado.</string>
+    <string name="servicios_r0c0">Los servicios R.O.C.O (Reconocimiento Oficial de la Competencia Ocupacional) tienen como objetivo que las personas interesadas puedan obtener mediante una evaluación teórico práctica el reconocimiento oficial que avala los conocimientos, habilidades y / o destrezas de una determinada ocupación, sin importar como las obtuvieron.</string>
+    <string name="otros_servicios">El Instituto de Capacitación para el Trabajo del Estado de Aguascalientes también ofrece servicios especiales como son:
+            Detección de necesidades de capacitación para la empresa u organización que lo solicite, para que conjuntamente se desarrollen planes y programas en áreas específicas de desarrollo.
+            Servicios auxiliares de capacitación a todos los niveles.
+            Servicios de reparación en diferentes especialidades.
+            Entidad de certifiación y evaluación CONOCER”.</string>
     <string-array name="Curso">
         <item>Alemán</item>
         <item>Alimentos y bebidas (Gastronomía)</item>
@@ -64,4 +77,29 @@
         <item>Villa Juarez</item>
         <item>San José de Gracia (Extensión)</item>
     </string-array>
+    <string name="address_label_text">Nombre</string>
+    <string name="telefono_label_text">Telefono</string>
+    <string name="curso_label_text">Curso</string>
+    <string name="plantel_label_text">Plantel</string>
+    <string name="Comentarios_label_text">Comentarios</string>
+    <string name="hint_comentarios">Ingresa aquí tus comentarios</string>
+    <string name="hint_numero">Ingresa Número</string>
+    <string name="hint_nombre">Ingresa tu Nombre</string>
+    <string name="button_solicitud">Enviar Solicitud</string>
+    <string name="ictea_mision">Misión</string>
+    <string name="mision_descripcion">En el ICTEA pretendemos elevar la calidad de vida de las personas capacitándolas en habilidades, destrezas y oficios para incrementar su competitividad de mano de obra y contribuir así a transformar nuestro Estado con el objetivo de ser competitivo, diversificado y próspero.</string>
+    <string name="ictea_vision">Visión</string>
+    <string name="vision_descripcion">Ser una institución pública con amplio reconocimiento social, lo cual a través de la capacitación laboral logremos enlazar las aspiraciones de las personas, con las necesidades de mano de obra calificada del sector productivo; ello nos permitirá aportar opciones que mejoren las condiciones de vida de las familias aguascalentenses, logrando mayor estabilidad social, abonando a que gocen de un entorno laboral aceptable y seguro.</string>
+    <string name="ictea_objetivos">Objetivos</string>
+    <string name="objetivos_descripcion">Impartir e impulsar la capacitación para el trabajo en la Entidad, propiciando su vinculación con el aparato productivo y las necesidades de desarrollo regional.
+        Promover el desarrollo de nuevos perfiles académicos que correspondan a las necesidades del mercado laboral.
+        Formar y actualizar a los instructores que imparten cursos a los capacitandos del Instituto.
+        Promover el empleo de calidad.
+        Trabajo digno y con crecimiento económico</string>
+    <string name="servicios_servicios">Servicios</string>
+    <string name="servicios_CR">Cursos Regulares (Ver mas)</string>
+    <string name="servicios_CE">Cursos de Extensión (Ver mas)</string>
+    <string name="servicios_CCI">Servicios C.C.I.. (Ver mas)</string>
+    <string name="servicios_ROCO">Servicios R.O.C.O. (ver mas)</string>
+    <string name="servicios_otros">Otros Servicios (Ver mas)</string>
 </resources>
