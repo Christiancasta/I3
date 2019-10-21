@@ -4,7 +4,6 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,12 +13,9 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import mx.gob.pt2ictea.Activities.MainActivity;
 import mx.gob.pt2ictea.R;
 
 public class Ubicacion2 extends Fragment implements OnMapReadyCallback {
@@ -38,6 +34,9 @@ public class Ubicacion2 extends Fragment implements OnMapReadyCallback {
         fab.hide();
 
         return view;
+        // DDCA Dis y Des de Con de Ap
+        // LeCoDeLab
+        // CoDe-T
     }
 
     @Override

@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Fragments.ubicacion"
-    tools:showIn="@layout/activity_ubicacion">
+    tools:context=".Fragments.Ubicacion2"
+    tools:showIn="@layout/activity_ubicacion2">
 
     <ImageView
         android:id="@+id/imageView4"
